@@ -199,7 +199,7 @@ if st.session_state.current_phase == 0:
                         }
                         
                         # Send the request to the backend
-                        response = requests.post("http://localhost:5050/Form-data", files=files, data=data)
+                        response = requests.post("https://receipt-service-genai.azurewebsites.net/Form-data", files=files, data=data)
                         
                         if response.status_code == 200:
                             # Store the result in session state
