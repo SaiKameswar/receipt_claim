@@ -1,0 +1,8 @@
+Flask
+flask-cors
+langchain-aws
+langgraph
+boto3
+dotenv
+langchain
+streamlit
